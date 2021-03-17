@@ -3,3 +3,5 @@ graphviz
 pillow
 pyyaml
 setuptools
+Sphinx
+sphinx-rtd-theme
