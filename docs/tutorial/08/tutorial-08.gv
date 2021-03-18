@@ -13,22 +13,41 @@ graph {
  </td></tr>
  <tr><td>
   <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
-   <td balign="left">Molex Micro-Fit</td>
-   <td balign="left">male</td>
-   <td balign="left">2-pin</td>
+   <td balign="left">Molex: 22013047</td>
+  </tr></table>
+ </td></tr>
+ <tr><td>
+  <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
+   <td balign="left">Molex KK 254</td>
+   <td balign="left">female</td>
+   <td balign="left">4-pin</td>
   </tr></table>
  </td></tr>
  <tr><td>
   <table border="0" cellspacing="0" cellpadding="3" cellborder="1">
    <tr>
-    <td>GND</td>
     <td port="p1r">1</td>
    </tr>
    <tr>
-    <td>VCC</td>
     <td port="p2r">2</td>
    </tr>
+   <tr>
+    <td port="p3r">3</td>
+   </tr>
+   <tr>
+    <td port="p4r">4</td>
+   </tr>
   </table>
+ </td></tr>
+ <tr><td>
+  <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
+   <td balign="left">Additional components</td>
+  </tr></table>
+ </td></tr>
+ <tr><td>
+  <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
+   <td align="left" balign="left">4 x #4 (Crimp)</td>
+  </tr></table>
  </td></tr>
 </table>
 > fillcolor=white margin=0 shape=none style=filled]
@@ -41,22 +60,42 @@ graph {
  </td></tr>
  <tr><td>
   <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
-   <td balign="left">Molex Micro-Fit</td>
+   <td balign="left">P/N: CON4</td>
+   <td balign="left">Molex: 22013047</td>
+  </tr></table>
+ </td></tr>
+ <tr><td>
+  <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
+   <td balign="left">Molex KK 254</td>
    <td balign="left">female</td>
-   <td balign="left">2-pin</td>
+   <td balign="left">4-pin</td>
   </tr></table>
  </td></tr>
  <tr><td>
   <table border="0" cellspacing="0" cellpadding="3" cellborder="1">
    <tr>
     <td port="p1l">1</td>
-    <td>GND</td>
    </tr>
    <tr>
     <td port="p2l">2</td>
-    <td>VCC</td>
+   </tr>
+   <tr>
+    <td port="p3l">3</td>
+   </tr>
+   <tr>
+    <td port="p4l">4</td>
    </tr>
   </table>
+ </td></tr>
+ <tr><td>
+  <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
+   <td balign="left">Additional components</td>
+  </tr></table>
+ </td></tr>
+ <tr><td>
+  <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
+   <td align="left" balign="left">4 x #4 (Crimp)</td>
+  </tr></table>
  </td></tr>
 </table>
 > fillcolor=white margin=0 shape=none style=filled]
@@ -69,59 +108,56 @@ graph {
  </td></tr>
  <tr><td>
   <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
-   <td balign="left">Molex Micro-Fit</td>
+   <td balign="left">Molex: 22013047</td>
+  </tr></table>
+ </td></tr>
+ <tr><td>
+  <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
+   <td balign="left">Molex KK 254</td>
    <td balign="left">female</td>
-   <td balign="left">2-pin</td>
+   <td balign="left">4-pin</td>
   </tr></table>
  </td></tr>
  <tr><td>
   <table border="0" cellspacing="0" cellpadding="3" cellborder="1">
    <tr>
     <td port="p1l">1</td>
-    <td>GND</td>
    </tr>
    <tr>
     <td port="p2l">2</td>
-    <td>VCC</td>
+   </tr>
+   <tr>
+    <td port="p3l">3</td>
+   </tr>
+   <tr>
+    <td port="p4l">4</td>
    </tr>
   </table>
  </td></tr>
-</table>
-> fillcolor=white margin=0 shape=none style=filled]
-	X4 [label=<
-<table border="0" cellspacing="0" cellpadding="0">
  <tr><td>
   <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
-   <td balign="left">X4</td>
+   <td balign="left">Additional components</td>
   </tr></table>
  </td></tr>
  <tr><td>
   <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
-   <td balign="left">Molex Micro-Fit</td>
-   <td balign="left">female</td>
-   <td balign="left">2-pin</td>
+   <td align="left" balign="left">4 x #4 (Crimp)</td>
   </tr></table>
- </td></tr>
- <tr><td>
-  <table border="0" cellspacing="0" cellpadding="3" cellborder="1">
-   <tr>
-    <td port="p1l">1</td>
-    <td>GND</td>
-   </tr>
-   <tr>
-    <td port="p2l">2</td>
-    <td>VCC</td>
-   </tr>
-  </table>
  </td></tr>
 </table>
 > fillcolor=white margin=0 shape=none style=filled]
-	edge [color="#000000:#000000:#000000"]
+	edge [color="#000000:#895956:#000000"]
 	X1:p1r:e -- W1:w1:w
 	W1:w1:e -- X2:p1l:w
 	edge [color="#000000:#ff0000:#000000"]
 	X1:p2r:e -- W1:w2:w
 	W1:w2:e -- X2:p2l:w
+	edge [color="#000000:#ff8000:#000000"]
+	X1:p3r:e -- W1:w3:w
+	W1:w3:e -- X2:p3l:w
+	edge [color="#000000:#ffff00:#000000"]
+	X1:p4r:e -- W1:w4:w
+	W1:w4:e -- X2:p4l:w
 	W1 [label=<
 <table border="0" cellspacing="0" cellpadding="0">
  <tr><td>
@@ -131,36 +167,42 @@ graph {
  </td></tr>
  <tr><td>
   <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
-   <td balign="left">2x</td>
-   <td balign="left">0.25 mm² (24 AWG)</td>
-   <td balign="left">0.2 m</td>
+   <td balign="left">P/N: CAB1</td>
+   <td balign="left">CablesCo: ABC123</td>
+  </tr></table>
+ </td></tr>
+ <tr><td>
+  <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
+   <td balign="left">4x</td>
+   <td balign="left">0.25 mm²</td>
+   <td balign="left">1 m</td>
   </tr></table>
  </td></tr>
  <tr><td>
   <table border="0" cellspacing="0" cellborder="0">
    <tr><td>&nbsp;</td></tr>
    <tr>
-    <td>X1:1:GND</td>
+    <td>X1:1</td>
     <td>
-     1:BK
+     1:BN
     </td>
-    <td>X2:1:GND</td>
+    <td>X2:1</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w1" height="6">
      <table cellspacing="0" cellborder="0" border="0">
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#895956" border="0"></td></tr>
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
      </table>
     </td>
    </tr>
    <tr>
-    <td>X1:2:VCC</td>
+    <td>X1:2</td>
     <td>
      2:RD
     </td>
-    <td>X2:2:VCC</td>
+    <td>X2:2</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w2" height="6">
@@ -171,17 +213,55 @@ graph {
      </table>
     </td>
    </tr>
+   <tr>
+    <td>X1:3</td>
+    <td>
+     3:OG
+    </td>
+    <td>X2:3</td>
+   </tr>
+   <tr>
+    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w3" height="6">
+     <table cellspacing="0" cellborder="0" border="0">
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff8000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+     </table>
+    </td>
+   </tr>
+   <tr>
+    <td>X1:4</td>
+    <td>
+     4:YE
+    </td>
+    <td>X2:4</td>
+   </tr>
+   <tr>
+    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w4" height="6">
+     <table cellspacing="0" cellborder="0" border="0">
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ffff00" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+     </table>
+    </td>
+   </tr>
    <tr><td>&nbsp;</td></tr>
   </table>
  </td></tr>
 </table>
 > fillcolor=white margin=0 shape=box style=""]
-	edge [color="#000000:#000000:#000000"]
+	edge [color="#000000:#ffff00:#000000"]
 	X1:p1r:e -- W2:w1:w
 	W2:w1:e -- X3:p1l:w
-	edge [color="#000000:#ff0000:#000000"]
+	edge [color="#000000:#000000:#000000"]
 	X1:p2r:e -- W2:w2:w
 	W2:w2:e -- X3:p2l:w
+	edge [color="#000000:#000000:#000000"]
+	X1:p3r:e -- W2:w3:w
+	W2:w3:e -- X3:p3l:w
+	edge [color="#000000:#ff0000:#000000"]
+	X1:p4r:e -- W2:w4:w
+	W2:w4:e -- X3:p4l:w
 	W2 [label=<
 <table border="0" cellspacing="0" cellpadding="0">
  <tr><td>
@@ -191,23 +271,45 @@ graph {
  </td></tr>
  <tr><td>
   <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
-   <td balign="left">2x</td>
-   <td balign="left">0.25 mm² (24 AWG)</td>
-   <td balign="left">0.2 m</td>
+   <td balign="left">4x</td>
+   <td balign="left">0.25 mm²</td>
+   <td balign="left">1 m</td>
   </tr></table>
  </td></tr>
  <tr><td>
   <table border="0" cellspacing="0" cellborder="0">
    <tr><td>&nbsp;</td></tr>
    <tr>
-    <td>X1:1:GND</td>
+    <td>X1:1</td>
     <td>
-     1:BK
+     YE
     </td>
-    <td>X3:1:GND</td>
+    <td>X3:1</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w1" height="6">
+     <table cellspacing="0" cellborder="0" border="0">
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ffff00" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+     </table>
+    </td>
+   </tr>
+   <tr><td colspan="3">
+    <table border="0" cellspacing="0" cellborder="0"><tr>
+     <td>P/N: WIRE1</td>
+     <td>WiresCo: W1-YE</td>
+    </tr></table>
+   </td></tr>
+   <tr>
+    <td>X1:2</td>
+    <td>
+     BK
+    </td>
+    <td>X3:2</td>
+   </tr>
+   <tr>
+    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w2" height="6">
      <table cellspacing="0" cellborder="0" border="0">
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
@@ -215,15 +317,43 @@ graph {
      </table>
     </td>
    </tr>
+   <tr><td colspan="3">
+    <table border="0" cellspacing="0" cellborder="0"><tr>
+     <td>P/N: WIRE2</td>
+     <td>WiresCo: W1-BK</td>
+    </tr></table>
+   </td></tr>
    <tr>
-    <td>X1:2:VCC</td>
+    <td>X1:3</td>
     <td>
-     2:RD
+     BK
     </td>
-    <td>X3:2:VCC</td>
+    <td>X3:3</td>
    </tr>
    <tr>
-    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w2" height="6">
+    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w3" height="6">
+     <table cellspacing="0" cellborder="0" border="0">
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+     </table>
+    </td>
+   </tr>
+   <tr><td colspan="3">
+    <table border="0" cellspacing="0" cellborder="0"><tr>
+     <td>P/N: WIRE2</td>
+     <td>WiresCo: W1-BK</td>
+    </tr></table>
+   </td></tr>
+   <tr>
+    <td>X1:4</td>
+    <td>
+     RD
+    </td>
+    <td>X3:4</td>
+   </tr>
+   <tr>
+    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w4" height="6">
      <table cellspacing="0" cellborder="0" border="0">
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
@@ -231,69 +361,25 @@ graph {
      </table>
     </td>
    </tr>
+   <tr><td colspan="3">
+    <table border="0" cellspacing="0" cellborder="0"><tr>
+     <td>P/N: WIRE3</td>
+     <td>WiresCo: W1-RD</td>
+    </tr></table>
+   </td></tr>
    <tr><td>&nbsp;</td></tr>
   </table>
  </td></tr>
-</table>
-> fillcolor=white margin=0 shape=box style=""]
-	edge [color="#000000:#000000:#000000"]
-	X1:p1r:e -- W3:w1:w
-	W3:w1:e -- X4:p1l:w
-	edge [color="#000000:#ff0000:#000000"]
-	X1:p2r:e -- W3:w2:w
-	W3:w2:e -- X4:p2l:w
-	W3 [label=<
-<table border="0" cellspacing="0" cellpadding="0">
  <tr><td>
   <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
-   <td balign="left">W3</td>
+   <td balign="left">Additional components</td>
   </tr></table>
  </td></tr>
  <tr><td>
   <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
-   <td balign="left">2x</td>
-   <td balign="left">20 AWG (0.75 mm²)</td>
-   <td balign="left">0.2 m</td>
+   <td align="left" balign="left">1 m x #6 (Sleve)</td>
   </tr></table>
  </td></tr>
- <tr><td>
-  <table border="0" cellspacing="0" cellborder="0">
-   <tr><td>&nbsp;</td></tr>
-   <tr>
-    <td>X1:1:GND</td>
-    <td>
-     1:BK
-    </td>
-    <td>X4:1:GND</td>
-   </tr>
-   <tr>
-    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w1" height="6">
-     <table cellspacing="0" cellborder="0" border="0">
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-     </table>
-    </td>
-   </tr>
-   <tr>
-    <td>X1:2:VCC</td>
-    <td>
-     2:RD
-    </td>
-    <td>X4:2:VCC</td>
-   </tr>
-   <tr>
-    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w2" height="6">
-     <table cellspacing="0" cellborder="0" border="0">
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-     </table>
-    </td>
-   </tr>
-   <tr><td>&nbsp;</td></tr>
-  </table>
- </td></tr>
 </table>
-> fillcolor=white margin=0 shape=box style=""]
+> fillcolor=white margin=0 shape=box style="filled,dashed"]
 }

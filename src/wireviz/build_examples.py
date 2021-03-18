@@ -23,9 +23,8 @@ groups = {
         'title': 'Example Gallery',
     },
     'tutorial' : {
-        'path': dir / 'tutorial',
-        'prefix': 'tutorial',
-        readme: ['md', 'yml'], # Include .md and .yml files
+        'path': dir / 'docs' / 'tutorial',
+        'prefix': 'tutorial-',
         'title': f'{APP_NAME} Tutorial',
     },
     'demos' : {
@@ -42,7 +41,7 @@ generated_extensions = extensions_not_containing_graphviz_output + extensions_co
 
 def collect_filenames(description, groupkey, ext_list):
     path = groups[groupkey]['path']
-    patterns = [f"{groups[groupkey]['prefix']}*{ext}" for ext in ext_list]
+    patterns = [f"**/{groups[groupkey]['prefix']}*{ext}" for ext in ext_list]
     if ext_list != input_extensions and readme in groups[groupkey]:
         patterns.append(readme)
     print(f'{description} {groupkey} in "{path}"')

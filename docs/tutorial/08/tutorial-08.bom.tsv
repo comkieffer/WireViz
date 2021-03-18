@@ -1,0 +1,10 @@
+Id	Item	Qty	Unit	Designators	P/N	Manufacturer	MPN
+1	Cable, 4 x 0.25 mm²	1	m	W1	CAB1	CablesCo	ABC123
+2	Connector, Molex KK 254, female, 4 pins	2		X1, X3		Molex	22013047
+3	Connector, Molex KK 254, female, 4 pins	1		X2	CON4	Molex	22013047
+4	Crimp, Molex KK 254, 22-30 AWG	12		X1, X2, X3		Molex	08500030
+5	Label, pinout information	2		X2, X3	Label-ID-1	Brady	B-499
+6	Sleve, Braided nylon, black, 3mm	1	m	W2	SLV-1		
+7	Wire, 0.25 mm², BK	2	m	W2	WIRE2	WiresCo	W1-BK
+8	Wire, 0.25 mm², RD	1	m	W2	WIRE3	WiresCo	W1-RD
+9	Wire, 0.25 mm², YE	1	m	W2	WIRE1	WiresCo	W1-YE
