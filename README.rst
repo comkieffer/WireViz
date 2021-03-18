@@ -30,7 +30,7 @@ Features
   * No special editor required
   * Human readable
   * Easy version control
-  * YAML syntax
+  * `YAML syntax <docs/syntax.md>`_
   * UTF-8 input and output files for special character support
 
 * Understands and uses color abbreviations as per `IEC 60757 <https://en.wikipedia.org/wiki/Electronic_color_code#Color_band_system>`__ (black=BK, red=RD, ...)
@@ -88,18 +88,18 @@ Demo 01
 
 Output file:
 
-.. image:: ./examples/demo01.png
+.. image:: /examples/demo01.png
   :alt: Sample output diagram
 
-`Source <./examples/demo01.yml>`__ - `Bill of Materials <examples/demo01.bom.tsv>`__ (auto-generated)
+`Source </examples/demo01.yml>`__ - `Bill of Materials <examples/demo01.bom.tsv>`__ (auto-generated)
 
 Demo 02
 -------
 
-.. image:: ./examples/demo02.png
+.. image:: /examples/demo02.png
   :alt: Wireviz output for demo02
 
-`Source <examples/demo02.yml>`__ - `Bill of Materials <examples/demo02.bom.tsv>`__
+`Source </examples/demo02.yml>`__ - `Bill of Materials <examples/demo02.bom.tsv>`__
 
 Tutorial and example gallery
 ----------------------------
